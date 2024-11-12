@@ -1,37 +1,20 @@
 ---
 ---
-<header>
-        <nav class="navbar">
-            <div class="logo" >
+<header class="bg-[#FFFFFF] p-[10px]">
+        <nav class="flex justify-around items-center h-[8vh]">
+            <div>
                 <a href="index.html">
-                    <img src="../img/logo-actualizado.png" alt="Logo">
+                    <img class="w-[259px]"src="../img/logo-actualizado.png" alt="Logo">
                 </a>
             </div>
-            <button class="iniciar-sesion" onclick="window.location.href = 'login.html'">
+            <button class="iniciar-sesion" onclick="window.location.href = 'login.html';">
                 Iniciar sesión
             </button>        
         </nav>
     </header>
 
 <style>
-header{
-    background-color: #FFFFFF;
-    padding: 10px;
-}
-.navbar{
-    display: flex;
-    justify-content: space-around ;
-    align-items: center;
-    height: 8vh;
-}
-.logo img{
-    width: 259px;
-}
 .navbar button {
-    width: 150px;
-    height: 60px;
-    border: 3px solid #000000;
-    border-radius: 45px;
     transition: all 0.3s;
     cursor: pointer;
     background: white;
